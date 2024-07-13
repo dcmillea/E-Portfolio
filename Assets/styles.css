@@ -808,6 +808,11 @@ footer {
 
 /* small phones, tablets, and large phones */
 @media(max-width: 768px) {
+    .cursor--outline,
+    .cursor--dot {
+        display: none;
+    }
+
     .title {
         font-size: 80px;
     }
@@ -839,6 +844,11 @@ footer {
 /* Small phones */
 
 @media(max-width: 480px) {
+    .cursor--outline,
+    .cursor--dot {
+        display: none;
+    }
+
     .title {
         font-size: 32px;
     }
@@ -863,4 +873,11 @@ footer {
         height: 370px;
         padding: 0;
     }
+}
+
+
+/* If on mobile device, hide the cursor */
+
+.hide-cursor {
+    cursor: none;
 }

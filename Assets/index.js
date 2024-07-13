@@ -7,6 +7,20 @@ const cursorOutline = document.querySelector(".cursor--outline");
 console.log(cursorDot);
 let isModalOpen = false;
 let contrastToggle = false;
+// const isMobile = () => {
+//   return window.innerWidth < 768;
+// }
+
+// const toggleCursor = () => {
+//   const cursorOutline = document.querySelector('.cursor--outline');
+//   const cursorDot = document.querySelector('.cursor--dot');
+//   if(cursorOutline && cursorDot) {
+//     if(isMobile()) {
+//       cursorOutline.classList.add('hide-cursor');
+//       cursorDot.classList.add('hide-cursor');
+//     }
+//   }
+// }
 
 function toggleContrast() {
   contrastToggle = !contrastToggle;
