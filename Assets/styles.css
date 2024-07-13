@@ -812,6 +812,10 @@ footer {
     .cursor--dot {
         display: none;
     }
+    /* The code above is for mobile devices to make sure that the
+        smaller screen sizes do not have the cusor, because it does not
+        go with the look and mobile devices do not even use them ;)
+    */
 
     .title {
         font-size: 80px;
