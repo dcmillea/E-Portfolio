@@ -1,26 +1,10 @@
-// my template id: template_2fqot2d
-// my service id: service_a0ofr3j
-// user id: kvUDIvkDMJdmm7_h3
+// For information on the email messaging system check, EmailJS
 
 const cursorDot = document.querySelector(".cursor--dot");
 const cursorOutline = document.querySelector(".cursor--outline");
 console.log(cursorDot);
 let isModalOpen = false;
 let contrastToggle = false;
-// const isMobile = () => {
-//   return window.innerWidth < 768;
-// }
-
-// const toggleCursor = () => {
-//   const cursorOutline = document.querySelector('.cursor--outline');
-//   const cursorDot = document.querySelector('.cursor--dot');
-//   if(cursorOutline && cursorDot) {
-//     if(isMobile()) {
-//       cursorOutline.classList.add('hide-cursor');
-//       cursorDot.classList.add('hide-cursor');
-//     }
-//   }
-// }
 
 function toggleContrast() {
   contrastToggle = !contrastToggle;

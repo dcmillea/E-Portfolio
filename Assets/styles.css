@@ -789,7 +789,7 @@ footer {
 }
 
 
-/* PARTICLES */
+/* PARTICLES, custom made */
 
 #canvas1 { 
     position: fixed;
@@ -802,7 +802,6 @@ footer {
 }
 
 
-
 /* RESPONSIVE  */
 
 
@@ -812,10 +811,8 @@ footer {
     .cursor--dot {
         display: none;
     }
-    /* The code above is for mobile devices to make sure that the
-        smaller screen sizes do not have the cusor, because it does not
-        go with the look and mobile devices do not even use them ;)
-    */
+    /* This change for the cursor will apply for mobile */
+    /* It will not apply for the computer screen */
 
     .title {
         font-size: 80px;
@@ -846,12 +843,13 @@ footer {
 
 
 /* Small phones */
-
 @media(max-width: 480px) {
     .cursor--outline,
     .cursor--dot {
         display: none;
     }
+    /* This change for the cursor will apply for mobile */
+    /* It will not apply for the computer screen */
 
     .title {
         font-size: 32px;
