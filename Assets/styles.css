@@ -839,6 +839,22 @@ footer {
     .modal__half {
         width: 100%;
     }
+
+    .img__figure {
+        height: 370px;
+        padding: 0;
+    }
+
+    .project__description--title {
+        font-size: 32px;
+        padding-bottom: 4px;
+    }
+
+    .project__description--sub-title {
+        font-size: 12px;
+        margin-top: 4px;
+        font-weight: 300;
+    }
 }
 
 
@@ -872,8 +888,18 @@ footer {
     }
 
     .img__figure {
-        height: 370px;
+        height: 270px;
         padding: 0;
+    }
+
+    .project__description--title {
+        font-size: 20px;
+        padding-bottom: 4px;
+    }
+
+    .project__description--sub-title {
+        font-size: 12px;
+        margin-top: 4px;
     }
 }
 
