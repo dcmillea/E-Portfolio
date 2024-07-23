@@ -45,6 +45,7 @@ function toggleModal() {
   isModalOpen = !isModalOpen;
   if (isModalOpen) {
     document.body.classList += " modal--open";
+    window.scrollTo(0, 0);
   } else {
     document.body.classList.remove("modal--open");
   }
@@ -57,6 +58,13 @@ const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 let particlesArray;
+
+function handleResize() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+}
+
+window.addEventListener("resize", handleResize);
 
 let mouse = {
   x: null,
