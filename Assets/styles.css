@@ -426,7 +426,7 @@ footer {
   
 .project__img {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     object-fit: cover;
     transition: all 600ms ease;
 }
@@ -444,7 +444,7 @@ footer {
 }
 
 .img__figure {
-    width: 100%;
+    width: auto;
     height: 550px;
     overflow: hidden;
 }
@@ -849,7 +849,7 @@ footer {
     }
 
     .img__figure {
-        height: 370px;
+        height: 100%;
         padding: 0;
     }
 
